@@ -14,6 +14,7 @@ odoo.define("account.ReconciliationClientAction", function (require) {
         hasControlPanel: true,
         withSearchBar: true,
         loadControlPanel: true,
+        searchMenuTypes: ['filter'],
         title: core._t("Bank Reconciliation"),
         contentTemplate: "reconciliation",
         custom_events: {
